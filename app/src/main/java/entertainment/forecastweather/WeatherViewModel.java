@@ -17,7 +17,7 @@ import retrofit2.Response;
 
 public class WeatherViewModel extends ViewModel {
     private static final String LOG_TAG = WeatherViewModel.class.getSimpleName();
-    private final static String API_KEY = "9351aee12441dbae1f55fb5ac1de496b";
+    private final static String API_KEY = "66f1358c14a244618e7190139192703";
     private final CompositeDisposable disposables = new CompositeDisposable();
     private final MutableLiveData<WeatherResponse> weatherTemp = new MutableLiveData<>();
 
